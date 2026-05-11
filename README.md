@@ -1,0 +1,1 @@
+# Trabalho-Pr-tico-Engenharia-de-Software-e-o-Legado-Wordle-Multi-
