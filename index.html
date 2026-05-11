@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wordle MVC</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="start-screen">
+        <h1>WORDLE MVC</h1>
+
+        <p>Escolha o idioma / Choose your language</p>
+
+        <button class="language-button" data-language="pt">
+            Português
+        </button>
+
+        <button class="language-button" data-language="en">
+            English
+        </button>
+    </div>
+
+    <div id="game-screen">
+
+        <div class="instructions" id="instructions"></div>
+
+        <div class="stats-container">
+            <div>
+                SCORE:
+                <span id="score-value">0</span>
+            </div>
+
+            <div>
+                ROUND:
+                <span id="round-value">1</span>
+            </div>
+        </div>
+
+        <div class="grid" id="board"></div>
+    </div>
+
+    <script type="module" src="./js/app.js"></script>
+
+</body>
+
+</html>
